@@ -1,13 +1,13 @@
 import React from 'react';
-// import Header from '../src/screens/Header';
+import Header from '../src/screens/Header';
 // import TabelaFinancias from './screens/TabelaFinancias';
 
 function Render() {
 
   return (
     <div>
-        os componentes aqui
-        {/* <Header/> */}
+        {/* os componentes aqui */}
+        {<Header/>}
         {/* <TabelaFinancias/> */}
     </div>
   );

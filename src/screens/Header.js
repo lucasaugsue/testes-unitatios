@@ -13,10 +13,12 @@ export default function Header({transparent : transparentProps = true}){
         setTransparent(scrollPosition <= 100)
     }, [scrollPosition])
 
-    React.useEffect(() => {
-        window.addEventListener('scroll', handleScroll)
-        return () => window.removeEventListener('scroll', handleScroll)
-    }, [])
+    // --> está travando os testes "window is not defined"
+
+    // React.useEffect(() => {
+    //     window.addEventListener('scroll', handleScroll)
+    //     return () => window.removeEventListener('scroll', handleScroll)
+    // }, [])
 
     return <div>
         <div className={

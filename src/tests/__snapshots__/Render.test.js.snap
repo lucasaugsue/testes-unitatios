@@ -2,6 +2,74 @@
 
 exports[`renderiza corretamente 1`] = `
 <div>
-  os componentes aqui
+  <div>
+    <div
+      className="basicHeader"
+    >
+      <div
+        className="gridContainerLogo"
+      >
+        <div
+          className="itemLogo"
+        >
+          <div
+            className="logo"
+          >
+            S
+          </div>
+          <div
+            className="logo"
+          >
+            e
+          </div>
+          <div
+            className="logo"
+          >
+            n
+          </div>
+          <div
+            className="logo"
+          >
+             
+          </div>
+          <div
+            className="logo"
+          >
+            F
+          </div>
+          <div
+            className="logo"
+          >
+            i
+          </div>
+          <div
+            className="logo"
+          >
+            n
+          </div>
+          <div
+            className="logo"
+          >
+            a
+          </div>
+          <div
+            className="logo"
+          >
+            n
+          </div>
+          <div
+            className="logo"
+          >
+            ç
+          </div>
+          <div
+            className="logo"
+          >
+            a
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;

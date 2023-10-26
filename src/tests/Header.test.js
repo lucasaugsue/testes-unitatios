@@ -1,10 +1,10 @@
 import renderer from 'react-test-renderer';
-import Render from '../Render';
+import Header from '../screens/Header';
 
 // Caso de teste atualizado com um Link para um endereço diferente
-it('renderiza corretamente', async () => {
+it('renderiza corretamente', () => {
     const tree = renderer
-      .create(<Render/>)
+      .create(<Header/>)
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
